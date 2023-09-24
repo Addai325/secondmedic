@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup Page</title>
+    <style>
+          .medic-app-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.medic-app-logo {
+  height: 150px;  
+}
+
+
+
+.signup-button {
+  display: block;
+  padding-left: 95px;
+  padding-right: 95px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  background-color:rgb(7, 7, 77);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 25px;
+  cursor: pointer;
+  
+}
+
+.signup-button:hover {
+  opacity: 0.7;
+}
+
+
+.signup-button:active {
+  opacity: 0.5;
+}
+
+.signup-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.google-logo {
+  height: 20px;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.google-signup {
+  color: rgb(60, 133, 244);
+  font-size: 18x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.google-signup:hover {
+  text-decoration: underline;
+}
+.google-signup:active {
+  opacity: 0.6;
+}
+
+.fb-logo {
+  height: 18px;
+  vertical-align: middle;
+  border-radius: 9px;
+  }
+
+.fb-signup {
+  color: rgb(60, 133, 244);
+  font-size: 18x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.fb-signup:hover {
+  text-decoration: underline;
+}
+.fb-signup:active {
+  opacity: 0.6;
+}
+
+
+
+.middle-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 140px;
+  row-gap: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+
+}
+
+.middle-section input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="medic-app-container"><img class="medic-app-logo" src="medic-old logo.jpg"></div>
+    
+    <div class="middle-section">
+      <div>
+        <input type="text" placeholder="Name">
+      </div>
+      <div>
+        <input type="text" placeholder="Email">
+      </div>
+      <div>
+        <input type="text" placeholder="Telephone">
+      </div>
+      <div>
+        <input type="text" placeholder="Address">
+      </div>
+      <div>
+        <input type="text" placeholder="Age">
+      </div>
+      <div>
+        <input type="text" placeholder="Nationality">
+      </div>
+      <div>
+        <input type="text" placeholder="Emergency contact name">
+      </div>
+      <div>
+        <input type="text" placeholder="Emergency contact number">
+      </div>
+
+    </div>
+    <div class="signup-button-div">
+      <button class="signup-button">Sign up</button>
+    </div>
+    <div class="google-signup">
+      <img class="google-logo" src="google logo.png">
+      Sign up with google
+    </div>
+    <div class="fb-signup">
+      <img class="fb-logo" src="fb logo.png">
+      Sign up with facebook
+    </div>
+  </body>
+</html>
